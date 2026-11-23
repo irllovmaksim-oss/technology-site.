@@ -44,3 +44,28 @@
 @media(max-width:360px){.profile-btn>span:last-child{display:none}.hero h1{font-size:40px}.hero-description{font-size:11px}.hero-bottom{font-size:7px}.hero-bottom>span+span{display:none}.search-field{padding:10px 9px}.search-field>select{font-size:10px}.section-heading h2{font-size:21px}.card-image{height:200px}.footer-top>p{font-size:8px}.footer .logo{font-size:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.travel-card:hover,.btn:hover{transform:none}}
 #account-form label{display:grid;gap:5px;margin:12px 0;font-weight:600}#account-form label[hidden]{display:none}#strength-box{margin:12px 0}#strength-box .muted{font-size:.84rem}.strength-line{display:flex;gap:5px;margin:8px 0}.strength-line i{flex:1;height:6px;border-radius:8px;background:#dcdfe6}[data-level="0"] i:first-child{background:#c62828}[data-level="1"] i:nth-child(-n+2){background:#bd7300}[data-level="2"] i{background:#18834c}#account-message{margin:12px 0;overflow-wrap:anywhere}
+/* Адаптация для телефонов */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .about-page {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .about-card {
+        padding: 15px;
+    }
+}
