@@ -66,5 +66,36 @@
  <dialog id="auth-modal" class="modal small-modal" aria-labelledby="auth-title"><div class="modal-body"><button class="icon-button modal-close" data-close="auth-modal" aria-label="Закрыть">×</button><p class="section-kicker">ASPANAIR</p><h2 id="auth-title">Вход</h2><form id="account-form"><label id="name-row" hidden>Имя<input id="account-name" class="text-input" maxlength="40" autocomplete="given-name"></label><label>Электронная почта<input id="account-email" class="text-input" type="email" autocomplete="username" required></label><label>Пароль<input id="account-pass" class="text-input" type="password" maxlength="256" autocomplete="current-password" required></label><div id="strength-box" hidden><div class="strength-line"><i></i><i></i><i></i></div><strong id="strength-label" aria-live="polite"></strong><p class="muted">Не менее 12 символов. Используйте три вида символов: строчные и заглавные буквы, цифры или знаки. Избегайте повторов и простых сочетаний.</p></div><button id="account-submit" class="btn btn-primary full-width">Войти</button></form><p id="account-message" role="status"></p><button id="auth-switch" class="btn">Создать аккаунт</button><button id="account-logout" class="btn" hidden>Выйти</button></div></dialog>
  <dialog id="payment-modal" class="modal small-modal"><div class="modal-body"><button class="icon-button modal-close" data-close="payment-modal" aria-label="Закрыть оформление"><svg class="icon"><use href="#i-close"/></svg></button><span class="large-icon"><svg class="icon"><use href="#i-bag"/></svg></span><p class="section-kicker">ПЛАНЫ ПРЕВРАЩАЮТСЯ В ИСТОРИИ</p><h2>Оформить заказ</h2><p class="muted">Оплата не требуется. Настоящие билеты и бронирования не создаются.</p><div id="checkout-details"></div><button class="btn btn-primary full-width" id="confirm-order">Подтвердить заказ <svg class="icon"><use href="#i-check"/></svg></button></div></dialog>
  <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="false"></div>
+<footer class="footer">
+  <div class="container footer-top">
+    <a class="logo" data-tab="flights" href="#flights">
+      <span class="logo-mark">
+        <svg class="icon"><use href="#i-plane"/></svg>
+      </span>
+      <span>
+        Aspan<span class="logo-air">Air</span>
+        <small>МИР БЛИЖЕ, ЧЕМ КАЖЕТСЯ.</small>
+      </span>
+    </a>
+
+    <p>
+      Для тех, кто всегда мечтает<br>
+      о следующем путешествии.
+    </p>
+
+    <div class="footer-links">
+      <a href="#faq" data-tab="faq">Помощь и FAQ</a>
+      <a href="#cart" data-tab="cart">Мои заказы</a>
+      <a href="about.html">О нас</a>
+      <a href="contact.php">Обратная связь</a>
+      <a href="messages.php">Сообщения</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>©️ <span id="year">2026</span> AspanAir</span>
+    <span>KZT / RU</span>
+  </div>
+</footer>
  <noscript><div class="noscript">Включите JavaScript, чтобы искать рейсы и управлять заказами.</div></noscript>
 </body></html>
